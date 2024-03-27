@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interface/srv/Catchturtle.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interface {
+  module srv {
+    struct Catchturtle_Request {
+      string name;
+    };
+    struct Catchturtle_Response {
+      boolean success;
+    };
+  };
+};

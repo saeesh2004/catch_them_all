@@ -1,0 +1,28 @@
+[5.045s] Invoking command in '/home/saeesh/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/saeesh/ros2_ws/build/my_py_pkg/prefix_override:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saeesh/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[5.614s] running develop
+[6.052s] running egg_info
+[6.052s] writing my_py_pkg.egg-info/PKG-INFO
+[6.053s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[6.054s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[6.054s] writing requirements to my_py_pkg.egg-info/requires.txt
+[6.054s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[6.059s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[6.062s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[6.064s] running build_ext
+[6.065s] Creating /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[6.069s] Installing activity3_subscriber script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.069s] Installing activity_pub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.070s] Installing activity_sub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.070s] Installing add_two_numbers_cli script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.073s] Installing add_two_numbers_cli_oop script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.073s] Installing add_two_numbers_srv script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.074s] Installing bettery script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.074s] Installing hw_status_publisher script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.075s] Installing led_panel script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.075s] Installing py_node script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.075s] Installing robo_news script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.075s] Installing smartphone script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.076s] 
+[6.076s] Installed /home/saeesh/ros2_ws/build/my_py_pkg
+[6.076s] running install_data
+[6.330s] Invoked command in '/home/saeesh/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/saeesh/ros2_ws/build/my_py_pkg/prefix_override:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saeesh/ros2_ws/build/my_py_pkg/build --no-deps install_data

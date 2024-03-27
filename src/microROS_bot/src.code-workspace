@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "microROS_BOT",
+			"path": "../microROS_BOT"
+		}
+	],
+	"settings": {}
+}

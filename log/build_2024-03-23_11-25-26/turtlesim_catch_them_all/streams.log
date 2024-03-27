@@ -1,0 +1,19 @@
+[1.540s] Invoking command in '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all': PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[1.936s] running develop
+[2.198s] running egg_info
+[2.198s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[2.198s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[2.199s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[2.199s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[2.199s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[2.201s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.202s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.204s] running build_ext
+[2.205s] Creating /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[2.205s] Installing turtle_controller script to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.206s] Installing turtle_spawner script to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.206s] 
+[2.206s] Installed /home/saeesh/ros2_ws/build/turtlesim_catch_them_all
+[2.207s] running install_data
+[2.207s] copying package.xml -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[2.265s] Invoked command in '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data

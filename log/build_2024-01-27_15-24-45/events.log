@@ -1,0 +1,495 @@
+[0.000000] (-) TimerEvent: {}
+[0.001506] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001690] (my_robot_interface) JobQueued: {'identifier': 'my_robot_interface', 'dependencies': OrderedDict()}
+[0.001779] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('my_robot_interface', '/home/saeesh/ros2_ws/install/my_robot_interface')])}
+[0.001942] (my_robot_interface) JobStarted: {'identifier': 'my_robot_interface'}
+[0.091961] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099734] (-) TimerEvent: {}
+[0.201113] (-) TimerEvent: {}
+[0.205996] (my_robot_interface) JobProgress: {'identifier': 'my_robot_interface', 'progress': 'cmake'}
+[0.240262] (my_robot_interface) JobProgress: {'identifier': 'my_robot_interface', 'progress': 'build'}
+[0.241682] (my_robot_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saeesh/ros2_ws/build/my_robot_interface', '--', '-j4', '-l4'], 'cwd': '/home/saeesh/ros2_ws/build/my_robot_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saeesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/home/saeesh/ros2_ws/install/my_robot_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saeesh'), ('OLDPWD', '/home/saeesh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1400'), ('SYSTEMD_EXEC_PID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '34961'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/saeesh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'saeesh'), ('JOURNAL_STREAM', '8:32909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saeesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/saeesh-Inspiron-15-3525:@/tmp/.ICE-unix/1556,unix/saeesh-Inspiron-15-3525:/tmp/.ICE-unix/1556'), ('INVOCATION_ID', '55afa097b33c47c59807e4ad3d979a7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T3A9H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:284d5bea-bf1d-4ef9-9d99-c1d5505cf7a7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saeesh/ros2_ws/build/my_robot_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saeesh/ros2_ws/build/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.301243] (-) TimerEvent: {}
+[0.398288] (my_robot_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401327] (-) TimerEvent: {}
+[0.501648] (-) TimerEvent: {}
+[0.602026] (-) TimerEvent: {}
+[0.702449] (-) TimerEvent: {}
+[0.718767] (my_robot_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.722030] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.728095] (my_robot_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.802612] (-) TimerEvent: {}
+[0.832400] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902741] (-) TimerEvent: {}
+[1.003143] (-) TimerEvent: {}
+[1.103508] (-) TimerEvent: {}
+[1.203944] (-) TimerEvent: {}
+[1.304314] (-) TimerEvent: {}
+[1.358033] (my_robot_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.404765] (-) TimerEvent: {}
+[1.406750] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/saeesh/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/saeesh/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/saeesh/ros2_ws/src/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'saeesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/home/saeesh/ros2_ws/install/my_robot_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/saeesh', 'OLDPWD': '/home/saeesh', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1400', 'SYSTEMD_EXEC_PID': '1579', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '34961', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saeesh/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'saeesh', 'JOURNAL_STREAM': '8:32909', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saeesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/saeesh-Inspiron-15-3525:@/tmp/.ICE-unix/1556,unix/saeesh-Inspiron-15-3525:/tmp/.ICE-unix/1556', 'INVOCATION_ID': '55afa097b33c47c59807e4ad3d979a7d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3A9H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:284d5bea-bf1d-4ef9-9d99-c1d5505cf7a7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saeesh/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saeesh/ros2_ws/build/my_py_pkg/prefix_override:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface'}, 'shell': False}
+[1.504898] (-) TimerEvent: {}
+[1.605256] (-) TimerEvent: {}
+[1.649337] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.705380] (-) TimerEvent: {}
+[1.804820] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.805444] (-) TimerEvent: {}
+[1.806520] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.807048] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.807364] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.807569] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.807735] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.810552] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.852822] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.853186] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.853323] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.854909] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.855413] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.859676] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.861075] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.863906] (my_py_pkg) StdoutLine: {'line': b"removing '/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.864523] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.866109] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.901991] (my_py_pkg) StdoutLine: {'line': b'Installing activity3_subscriber script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.902309] (my_py_pkg) StdoutLine: {'line': b'Installing activity_pub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.902510] (my_py_pkg) StdoutLine: {'line': b'Installing activity_sub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.902714] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_numbers_cli script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.902911] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_numbers_cli_oop script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.903144] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_numbers_srv script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.903388] (my_py_pkg) StdoutLine: {'line': b'Installing bettery script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.903580] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.903778] (my_py_pkg) StdoutLine: {'line': b'Installing led_panel script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.903949] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.904137] (my_py_pkg) StdoutLine: {'line': b'Installing robo_news script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.904325] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.905418] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/saeesh/ros2_ws/build/my_py_pkg/install.log'\n"}
+[1.905939] (-) TimerEvent: {}
+[1.973753] (my_py_pkg) CommandEnded: {'returncode': 0}
+[2.006390] (-) TimerEvent: {}
+[2.036695] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.069585] (my_robot_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.102417] (my_robot_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.102945] (my_robot_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.103788] (my_robot_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.104754] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[2.106474] (-) TimerEvent: {}
+[2.126939] (my_robot_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.206647] (-) TimerEvent: {}
+[2.238216] (my_robot_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.248920] (my_robot_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/saeesh/ros2_ws/build/my_robot_interface\n'}
+[2.292722] (my_robot_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.306758] (-) TimerEvent: {}
+[2.308445] (my_robot_interface) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.337039] (my_robot_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_my_robot_interface\n'}
+[2.406890] (-) TimerEvent: {}
+[2.507460] (-) TimerEvent: {}
+[2.607985] (-) TimerEvent: {}
+[2.708452] (-) TimerEvent: {}
+[2.808962] (-) TimerEvent: {}
+[2.868670] (my_robot_interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.869709] (my_robot_interface) StdoutLine: {'line': b'writing my_robot_interface.egg-info/PKG-INFO\n'}
+[2.870022] (my_robot_interface) StdoutLine: {'line': b'writing dependency_links to my_robot_interface.egg-info/dependency_links.txt\n'}
+[2.870264] (my_robot_interface) StdoutLine: {'line': b'writing top-level names to my_robot_interface.egg-info/top_level.txt\n'}
+[2.874141] (my_robot_interface) StdoutLine: {'line': b"reading manifest file 'my_robot_interface.egg-info/SOURCES.txt'\n"}
+[2.892550] (my_robot_interface) StdoutLine: {'line': b"writing manifest file 'my_robot_interface.egg-info/SOURCES.txt'\n"}
+[2.909105] (-) TimerEvent: {}
+[2.953025] (my_robot_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_my_robot_interface_egg\n'}
+[3.009703] (-) TimerEvent: {}
+[3.060361] (my_robot_interface) StdoutLine: {'line': b'[  4%] Built target my_robot_interface__cpp\n'}
+[3.080167] (my_robot_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.099290] (my_robot_interface) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.109418] (-) TimerEvent: {}
+[3.141713] (my_robot_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.196677] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_generator_c\x1b[0m\n'}
+[3.209525] (-) TimerEvent: {}
+[3.225904] (my_robot_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/turtle__functions.c.o\x1b[0m\n'}
+[3.309634] (-) TimerEvent: {}
+[3.410133] (-) TimerEvent: {}
+[3.477635] (my_robot_interface) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/turtle_array__functions.c.o\x1b[0m\n'}
+[3.510246] (-) TimerEvent: {}
+[3.565420] (my_robot_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/srv/detail/catchturtle__functions.c.o\x1b[0m\n'}
+[3.610373] (-) TimerEvent: {}
+[3.667232] (my_robot_interface) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.700554] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.710481] (-) TimerEvent: {}
+[3.735011] (my_robot_interface) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.810974] (-) TimerEvent: {}
+[3.852269] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.868181] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.874517] (my_robot_interface) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.890672] (my_robot_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.911205] (-) TimerEvent: {}
+[4.012198] (-) TimerEvent: {}
+[4.112739] (-) TimerEvent: {}
+[4.126965] (my_robot_interface) StdoutLine: {'line': b'[ 25%] Built target my_robot_interface__rosidl_generator_c\n'}
+[4.152216] (my_robot_interface) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.212900] (-) TimerEvent: {}
+[4.313382] (-) TimerEvent: {}
+[4.413805] (-) TimerEvent: {}
+[4.470934] (my_robot_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[4.513935] (-) TimerEvent: {}
+[4.614371] (-) TimerEvent: {}
+[4.676444] (my_robot_interface) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[4.712846] (my_robot_interface) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[4.714471] (-) TimerEvent: {}
+[4.814866] (-) TimerEvent: {}
+[4.915322] (-) TimerEvent: {}
+[4.988438] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.000527] (my_robot_interface) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/srv/catchturtle__type_support.cpp.o\x1b[0m\n'}
+[5.015473] (-) TimerEvent: {}
+[5.021573] (my_robot_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interface/msg/detail/turtle__type_support_c.cpp.o\x1b[0m\n'}
+[5.115603] (-) TimerEvent: {}
+[5.216014] (-) TimerEvent: {}
+[5.316631] (-) TimerEvent: {}
+[5.417075] (-) TimerEvent: {}
+[5.457234] (my_robot_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/srv/detail/catchturtle__type_support.cpp.o\x1b[0m\n'}
+[5.517205] (-) TimerEvent: {}
+[5.519813] (my_robot_interface) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interface/srv/detail/dds_fastrtps/catchturtle__type_support.cpp.o\x1b[0m\n'}
+[5.582991] (my_robot_interface) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.617371] (-) TimerEvent: {}
+[5.659236] (my_robot_interface) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interface/msg/detail/turtle_array__type_support_c.cpp.o\x1b[0m\n'}
+[5.717504] (-) TimerEvent: {}
+[5.770413] (my_robot_interface) StdoutLine: {'line': b'[ 46%] Built target my_robot_interface__rosidl_typesupport_cpp\n'}
+[5.794076] (my_robot_interface) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.817610] (-) TimerEvent: {}
+[5.918011] (-) TimerEvent: {}
+[6.018448] (-) TimerEvent: {}
+[6.118861] (-) TimerEvent: {}
+[6.189707] (my_robot_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.218984] (-) TimerEvent: {}
+[6.266594] (my_robot_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interface/srv/detail/catchturtle__type_support_c.cpp.o\x1b[0m\n'}
+[6.319115] (-) TimerEvent: {}
+[6.388689] (my_robot_interface) StdoutLine: {'line': b'[ 53%] Built target my_robot_interface__rosidl_typesupport_introspection_cpp\n'}
+[6.410153] (my_robot_interface) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.419236] (-) TimerEvent: {}
+[6.420650] (my_robot_interface) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.519443] (-) TimerEvent: {}
+[6.604677] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.619560] (-) TimerEvent: {}
+[6.631218] (my_robot_interface) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interface/msg/detail/turtle__type_support.c.o\x1b[0m\n'}
+[6.640135] (my_robot_interface) StdoutLine: {'line': b'[ 59%] Built target my_robot_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[6.662249] (my_robot_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interface/msg/detail/turtle_array__type_support.c.o\x1b[0m\n'}
+[6.705172] (my_robot_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interface/srv/detail/catchturtle__type_support.c.o\x1b[0m\n'}
+[6.719674] (-) TimerEvent: {}
+[6.794864] (my_robot_interface) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.819811] (-) TimerEvent: {}
+[6.858854] (my_robot_interface) StdoutLine: {'line': b'[ 65%] Built target my_robot_interface__rosidl_typesupport_introspection_c\n'}
+[6.906858] (my_robot_interface) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.919929] (-) TimerEvent: {}
+[6.992212] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_c\x1b[0m\n'}
+[7.013577] (my_robot_interface) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interface/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[7.013993] (my_robot_interface) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interface/srv/catchturtle__type_support.cpp.o\x1b[0m\n'}
+[7.018082] (my_robot_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interface/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[7.020090] (-) TimerEvent: {}
+[7.092623] (my_robot_interface) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.093100] (my_robot_interface) StdoutLine: {'line': b'[ 76%] Built target my_robot_interface__rosidl_typesupport_fastrtps_c\n'}
+[7.120197] (-) TimerEvent: {}
+[7.156548] (my_robot_interface) StdoutLine: {'line': b'[ 76%] Built target my_robot_interface__rosidl_typesupport_c\n'}
+[7.191130] (my_robot_interface) StdoutLine: {'line': b'[ 76%] Built target my_robot_interface\n'}
+[7.220741] (-) TimerEvent: {}
+[7.225223] (my_robot_interface) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.320842] (-) TimerEvent: {}
+[7.421754] (-) TimerEvent: {}
+[7.522182] (-) TimerEvent: {}
+[7.622744] (-) TimerEvent: {}
+[7.723141] (-) TimerEvent: {}
+[7.823530] (-) TimerEvent: {}
+[7.925415] (-) TimerEvent: {}
+[8.025870] (-) TimerEvent: {}
+[8.126245] (-) TimerEvent: {}
+[8.237583] (-) TimerEvent: {}
+[8.295966] (my_robot_interface) StdoutLine: {'line': b'[ 78%] Built target my_robot_interface__py\n'}
+[8.319798] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_generator_py\x1b[0m\n'}
+[8.337704] (-) TimerEvent: {}
+[8.350105] (my_robot_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interface/msg/_turtle_s.c.o\x1b[0m\n'}
+[8.351289] (my_robot_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interface/msg/_turtle_array_s.c.o\x1b[0m\n'}
+[8.367074] (my_robot_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interface/srv/_catchturtle_s.c.o\x1b[0m\n'}
+[8.437839] (-) TimerEvent: {}
+[8.541405] (-) TimerEvent: {}
+[8.615591] (my_robot_interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interface/libmy_robot_interface__rosidl_generator_py.so\x1b[0m\n'}
+[8.641965] (-) TimerEvent: {}
+[8.714771] (my_robot_interface) StdoutLine: {'line': b'[ 87%] Built target my_robot_interface__rosidl_generator_py\n'}
+[8.741641] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.742023] (-) TimerEvent: {}
+[8.749909] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.750971] (my_robot_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.781680] (my_robot_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.786245] (my_robot_interface) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.805184] (my_robot_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.842163] (-) TimerEvent: {}
+[8.942982] (-) TimerEvent: {}
+[9.043526] (-) TimerEvent: {}
+[9.046946] (my_robot_interface) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interface/my_robot_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.092397] (my_robot_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interface/my_robot_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.127358] (my_robot_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interface/my_robot_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.138748] (my_robot_interface) StdoutLine: {'line': b'[100%] Built target my_robot_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.143673] (-) TimerEvent: {}
+[9.194351] (my_robot_interface) StdoutLine: {'line': b'[100%] Built target my_robot_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[9.203136] (my_robot_interface) StdoutLine: {'line': b'[100%] Built target my_robot_interface__rosidl_typesupport_c__pyext\n'}
+[9.233522] (my_robot_interface) CommandEnded: {'returncode': 0}
+[9.243788] (-) TimerEvent: {}
+[9.345403] (-) TimerEvent: {}
+[9.446228] (-) TimerEvent: {}
+[9.505539] (my_robot_interface) JobProgress: {'identifier': 'my_robot_interface', 'progress': 'install'}
+[9.521773] (my_robot_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saeesh/ros2_ws/build/my_robot_interface'], 'cwd': '/home/saeesh/ros2_ws/build/my_robot_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saeesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/home/saeesh/ros2_ws/install/my_robot_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saeesh'), ('OLDPWD', '/home/saeesh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1400'), ('SYSTEMD_EXEC_PID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '34961'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/saeesh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'saeesh'), ('JOURNAL_STREAM', '8:32909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saeesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/saeesh-Inspiron-15-3525:@/tmp/.ICE-unix/1556,unix/saeesh-Inspiron-15-3525:/tmp/.ICE-unix/1556'), ('INVOCATION_ID', '55afa097b33c47c59807e4ad3d979a7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T3A9H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:284d5bea-bf1d-4ef9-9d99-c1d5505cf7a7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saeesh/ros2_ws/build/my_robot_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saeesh/ros2_ws/build/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[9.540588] (my_robot_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.541001] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/ament_index/resource_index/rosidl_interfaces/my_robot_interface\n'}
+[9.541202] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface\n'}
+[9.541395] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv\n'}
+[9.541585] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail\n'}
+[9.542032] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__struct.h\n'}
+[9.542215] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__functions.h\n'}
+[9.542398] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__type_support.h\n'}
+[9.542628] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__functions.c\n'}
+[9.542917] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/catchturtle.h\n'}
+[9.543100] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg\n'}
+[9.543287] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/turtle.h\n'}
+[9.543503] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.543672] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail\n'}
+[9.543824] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__functions.c\n'}
+[9.543998] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__type_support.h\n'}
+[9.544177] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__functions.h\n'}
+[9.544465] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__struct.h\n'}
+[9.545029] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__struct.h\n'}
+[9.545197] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__type_support.h\n'}
+[9.545866] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__functions.h\n'}
+[9.546037] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__functions.c\n'}
+[9.546217] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/turtle_array.h\n'}
+[9.547585] (-) TimerEvent: {}
+[9.548183] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/library_path.sh\n'}
+[9.548946] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/library_path.dsv\n'}
+[9.549882] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_generator_c.so\n'}
+[9.550116] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_generator_c.so" to ""\n'}
+[9.550226] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface\n'}
+[9.551399] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv\n'}
+[9.551590] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail\n'}
+[9.551995] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__rosidl_typesupport_fastrtps_c.h\n'}
+[9.552252] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg\n'}
+[9.552368] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.552892] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail\n'}
+[9.553437] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[9.553567] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[9.553676] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[9.554752] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.554924] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface\n'}
+[9.555036] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv\n'}
+[9.555162] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail\n'}
+[9.555268] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__type_support.c\n'}
+[9.555497] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__rosidl_typesupport_introspection_c.h\n'}
+[9.555915] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg\n'}
+[9.556349] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail\n'}
+[9.556898] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__type_support.c\n'}
+[9.557736] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[9.558683] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[9.558823] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__type_support.c\n'}
+[9.559831] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.560017] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_introspection_c.so\n'}
+[9.560155] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.560296] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_c.so\n'}
+[9.560422] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_c.so" to ""\n'}
+[9.560553] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface\n'}
+[9.560684] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv\n'}
+[9.560814] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail\n'}
+[9.560938] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__struct.hpp\n'}
+[9.561060] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__traits.hpp\n'}
+[9.561183] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__builder.hpp\n'}
+[9.561535] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/catchturtle.hpp\n'}
+[9.561711] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg\n'}
+[9.561855] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail\n'}
+[9.561997] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__traits.hpp\n'}
+[9.562150] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__builder.hpp\n'}
+[9.562282] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__builder.hpp\n'}
+[9.562419] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__struct.hpp\n'}
+[9.562559] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__traits.hpp\n'}
+[9.562700] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__struct.hpp\n'}
+[9.562836] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/turtle.hpp\n'}
+[9.562974] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/turtle_array.hpp\n'}
+[9.563136] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface\n'}
+[9.563278] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv\n'}
+[9.563422] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail\n'}
+[9.563562] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.563745] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/dds_fastrtps\n'}
+[9.563890] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg\n'}
+[9.564029] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail\n'}
+[9.564171] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.564296] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.565778] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/dds_fastrtps\n'}
+[9.566141] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.566381] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.566534] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.566679] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface\n'}
+[9.566833] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv\n'}
+[9.566988] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail\n'}
+[9.567218] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.567419] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/srv/detail/catchturtle__type_support.cpp\n'}
+[9.567562] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg\n'}
+[9.567702] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail\n'}
+[9.567839] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__type_support.cpp\n'}
+[9.567973] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__type_support.cpp\n'}
+[9.568278] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.568423] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/include/my_robot_interface/my_robot_interface/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.568654] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[9.568800] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.568969] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_cpp.so\n'}
+[9.569123] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[9.569345] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/pythonpath.sh\n'}
+[9.569567] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/pythonpath.dsv\n'}
+[9.569708] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info\n'}
+[9.569934] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.570074] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.570289] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.570480] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.570655] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface\n'}
+[9.570793] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.570986] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/srv\n'}
+[9.571223] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/srv/_catchturtle_s.c\n'}
+[9.571361] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/srv/_catchturtle.py\n'}
+[9.571556] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/srv/__init__.py\n'}
+[9.571709] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg\n'}
+[9.571875] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_turtle_array.py\n'}
+[9.572006] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_turtle_array_s.c\n'}
+[9.572507] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_turtle.py\n'}
+[9.573121] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/__init__.py\n'}
+[9.574109] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_turtle_s.c\n'}
+[9.574391] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.574626] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_c.c\n'}
+[9.574787] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/libmy_robot_interface__rosidl_generator_py.so\n'}
+[9.575014] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.575184] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/_my_robot_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.575420] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.575565] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/__init__.py\n'}
+[9.647701] (-) TimerEvent: {}
+[9.654203] (my_robot_interface) StdoutLine: {'line': b"Listing '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface'...\n"}
+[9.654589] (my_robot_interface) StdoutLine: {'line': b"Compiling '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/__init__.py'...\n"}
+[9.654775] (my_robot_interface) StdoutLine: {'line': b"Listing '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg'...\n"}
+[9.654933] (my_robot_interface) StdoutLine: {'line': b"Compiling '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/__init__.py'...\n"}
+[9.655097] (my_robot_interface) StdoutLine: {'line': b"Compiling '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_turtle.py'...\n"}
+[9.655260] (my_robot_interface) StdoutLine: {'line': b"Compiling '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/msg/_turtle_array.py'...\n"}
+[9.655410] (my_robot_interface) StdoutLine: {'line': b"Listing '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/srv'...\n"}
+[9.655534] (my_robot_interface) StdoutLine: {'line': b"Compiling '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/srv/__init__.py'...\n"}
+[9.655711] (my_robot_interface) StdoutLine: {'line': b"Compiling '/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/srv/_catchturtle.py'...\n"}
+[9.675482] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.676034] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.676136] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.676229] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.676334] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.676424] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages/my_robot_interface/my_robot_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.676511] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_generator_py.so\n'}
+[9.676618] (my_robot_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/saeesh/ros2_ws/install/my_robot_interface/lib/libmy_robot_interface__rosidl_generator_py.so" to ""\n'}
+[9.676742] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/msg/Turtle.idl\n'}
+[9.676865] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/msg/TurtleArray.idl\n'}
+[9.676986] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/srv/Catchturtle.idl\n'}
+[9.677124] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/msg/Turtle.msg\n'}
+[9.677246] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/msg/TurtleArray.msg\n'}
+[9.679506] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/srv/Catchturtle.srv\n'}
+[9.679660] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/srv/Catchturtle_Request.msg\n'}
+[9.679773] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/srv/Catchturtle_Response.msg\n'}
+[9.680169] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/ament_index/resource_index/package_run_dependencies/my_robot_interface\n'}
+[9.680273] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/ament_index/resource_index/parent_prefix_path/my_robot_interface\n'}
+[9.680359] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/ament_prefix_path.sh\n'}
+[9.680444] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/ament_prefix_path.dsv\n'}
+[9.680529] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/path.sh\n'}
+[9.683301] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/path.dsv\n'}
+[9.683709] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/local_setup.bash\n'}
+[9.683842] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/local_setup.sh\n'}
+[9.683969] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/local_setup.zsh\n'}
+[9.684082] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/local_setup.dsv\n'}
+[9.684205] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/package.dsv\n'}
+[9.684322] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/ament_index/resource_index/packages/my_robot_interface\n'}
+[9.684437] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_cExport.cmake\n'}
+[9.684577] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.684691] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.684812] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.684921] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.685042] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.685160] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_cExport.cmake\n'}
+[9.685275] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.685495] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_cppExport.cmake\n'}
+[9.685613] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.685727] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.685845] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.685959] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.686074] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_cppExport.cmake\n'}
+[9.686187] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.686298] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_pyExport.cmake\n'}
+[9.686409] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/export_my_robot_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.686524] (my_robot_interface) StdoutLine: {'line': b'-- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[9.686662] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.686766] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.686872] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.686980] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.687085] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.687194] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.687304] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interfaceConfig.cmake\n'}
+[9.687447] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interfaceConfig-version.cmake\n'}
+[9.687855] (my_robot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/package.xml\n'}
+[9.712589] (my_robot_interface) CommandEnded: {'returncode': 0}
+[9.747842] (-) TimerEvent: {}
+[9.848284] (-) TimerEvent: {}
+[9.948704] (-) TimerEvent: {}
+[10.049768] (-) TimerEvent: {}
+[10.150164] (-) TimerEvent: {}
+[10.250581] (-) TimerEvent: {}
+[10.293056] (my_robot_interface) JobEnded: {'identifier': 'my_robot_interface', 'rc': 0}
+[10.294066] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[10.350701] (-) TimerEvent: {}
+[10.451059] (-) TimerEvent: {}
+[10.551379] (-) TimerEvent: {}
+[10.651732] (-) TimerEvent: {}
+[10.752054] (-) TimerEvent: {}
+[10.852408] (-) TimerEvent: {}
+[10.953035] (-) TimerEvent: {}
+[11.053436] (-) TimerEvent: {}
+[11.153984] (-) TimerEvent: {}
+[11.254342] (-) TimerEvent: {}
+[11.355034] (-) TimerEvent: {}
+[11.455424] (-) TimerEvent: {}
+[11.553030] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build'], 'cwd': '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'saeesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saeesh/ros2_ws/install/my_robot_interface/lib:/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/saeesh', 'OLDPWD': '/home/saeesh', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1400', 'SYSTEMD_EXEC_PID': '1579', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '34961', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saeesh/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'saeesh', 'JOURNAL_STREAM': '8:32909', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saeesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/saeesh-Inspiron-15-3525:@/tmp/.ICE-unix/1556,unix/saeesh-Inspiron-15-3525:/tmp/.ICE-unix/1556', 'INVOCATION_ID': '55afa097b33c47c59807e4ad3d979a7d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3A9H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:284d5bea-bf1d-4ef9-9d99-c1d5505cf7a7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces'}, 'shell': False}
+[11.556572] (-) TimerEvent: {}
+[11.656918] (-) TimerEvent: {}
+[11.757346] (-) TimerEvent: {}
+[11.857729] (-) TimerEvent: {}
+[11.927406] (turtlesim_catch_them_all) StdoutLine: {'line': b'running develop\n'}
+[11.957845] (-) TimerEvent: {}
+[12.058248] (-) TimerEvent: {}
+[12.156534] (turtlesim_catch_them_all) StdoutLine: {'line': b'Removing /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)\n'}
+[12.158357] (-) TimerEvent: {}
+[12.213435] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[12.214899] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlesim_catch_them_all', 'build', '--build-base', '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build', 'install', '--record', '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log', '--single-version-externally-managed'], 'cwd': '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'saeesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saeesh/ros2_ws/install/my_robot_interface/lib:/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/saeesh', 'OLDPWD': '/home/saeesh', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1400', 'SYSTEMD_EXEC_PID': '1579', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '34961', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saeesh/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'saeesh', 'JOURNAL_STREAM': '8:32909', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saeesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/saeesh-Inspiron-15-3525:@/tmp/.ICE-unix/1556,unix/saeesh-Inspiron-15-3525:/tmp/.ICE-unix/1556', 'INVOCATION_ID': '55afa097b33c47c59807e4ad3d979a7d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3A9H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:284d5bea-bf1d-4ef9-9d99-c1d5505cf7a7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces'}, 'shell': False}
+[12.258490] (-) TimerEvent: {}
+[12.358954] (-) TimerEvent: {}
+[12.459288] (-) TimerEvent: {}
+[12.559635] (-) TimerEvent: {}
+[12.578924] (turtlesim_catch_them_all) StdoutLine: {'line': b'running egg_info\n'}
+[12.580053] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO\n'}
+[12.580402] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt\n'}
+[12.580630] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt\n'}
+[12.580839] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt\n'}
+[12.581217] (turtlesim_catch_them_all) StdoutLine: {'line': b'writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt\n'}
+[12.583555] (turtlesim_catch_them_all) StdoutLine: {'line': b"reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[12.585099] (turtlesim_catch_them_all) StdoutLine: {'line': b"writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'\n"}
+[12.586217] (turtlesim_catch_them_all) StdoutLine: {'line': b'running build\n'}
+[12.586605] (turtlesim_catch_them_all) StdoutLine: {'line': b'running build_py\n'}
+[12.586869] (turtlesim_catch_them_all) StdoutLine: {'line': b'copying turtlesim_catch_them_all/turtle_spawner.py -> /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all\n'}
+[12.587179] (turtlesim_catch_them_all) StdoutLine: {'line': b'copying turtlesim_catch_them_all/turtle_controller.py -> /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all\n'}
+[12.587568] (turtlesim_catch_them_all) StdoutLine: {'line': b'running install\n'}
+[12.587837] (turtlesim_catch_them_all) StdoutLine: {'line': b'running install_lib\n'}
+[12.588481] (turtlesim_catch_them_all) StdoutLine: {'line': b'creating /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all\n'}
+[12.588866] (turtlesim_catch_them_all) StdoutLine: {'line': b'copying /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_spawner.py -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all\n'}
+[12.589201] (turtlesim_catch_them_all) StdoutLine: {'line': b'copying /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_controller.py -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all\n'}
+[12.589450] (turtlesim_catch_them_all) StdoutLine: {'line': b'copying /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/__init__.py -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all\n'}
+[12.589793] (turtlesim_catch_them_all) StdoutLine: {'line': b'byte-compiling /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_spawner.py to turtle_spawner.cpython-310.pyc\n'}
+[12.590963] (turtlesim_catch_them_all) StdoutLine: {'line': b'byte-compiling /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_controller.py to turtle_controller.cpython-310.pyc\n'}
+[12.592214] (turtlesim_catch_them_all) StdoutLine: {'line': b'byte-compiling /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/__init__.py to __init__.cpython-310.pyc\n'}
+[12.592887] (turtlesim_catch_them_all) StdoutLine: {'line': b'running install_data\n'}
+[12.593462] (turtlesim_catch_them_all) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.595500] (turtlesim_catch_them_all) StdoutLine: {'line': b'Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info\n'}
+[12.597031] (turtlesim_catch_them_all) StdoutLine: {'line': b'running install_scripts\n'}
+[12.622358] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installing turtle_controller script to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all\n'}
+[12.623660] (turtlesim_catch_them_all) StdoutLine: {'line': b'Installing turtle_spawner script to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all\n'}
+[12.623925] (turtlesim_catch_them_all) StdoutLine: {'line': b"writing list of installed files to '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log'\n"}
+[12.659786] (-) TimerEvent: {}
+[12.670795] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[12.759922] (-) TimerEvent: {}
+[12.801080] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 0}
+[12.801994] (-) EventReactorShutdown: {}

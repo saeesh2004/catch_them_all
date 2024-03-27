@@ -1,0 +1,22 @@
+[1.766s] Invoking command in '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/saeesh/ros2_ws/install/my_robot_interface/lib:/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed
+[2.246s] running egg_info
+[2.248s] writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO
+[2.248s] writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt
+[2.249s] writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt
+[2.249s] writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt
+[2.249s] writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt
+[2.253s] reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.255s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.255s] running build
+[2.255s] running build_py
+[2.255s] running install
+[2.256s] running install_lib
+[2.259s] running install_data
+[2.260s] running install_egg_info
+[2.263s] removing '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info' (and everything under it)
+[2.264s] Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info
+[2.266s] running install_scripts
+[2.304s] Installing turtle_controller script to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.304s] Installing turtle_spawner script to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.305s] writing list of installed files to '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log'
+[2.374s] Invoked command in '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/saeesh/ros2_ws/install/my_robot_interface/lib:/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed

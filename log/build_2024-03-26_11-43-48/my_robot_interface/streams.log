@@ -1,0 +1,10 @@
+[0.165s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ROS2swarm/install/ros2swarm:/home/saeesh/ROS2swarm/install/launch_gazebo:/home/saeesh/turtlebot3_ws/install/turtlebot3_teleop:/home/saeesh/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interface -- -j4 -l4
+[0.204s] [31mCMake Error at CMakeLists.txt:13:
+[0.204s]   Parse error.  Expected a command name, got quoted argument with text
+[0.204s]   "msg/Turtle.msg".
+[0.205s] 
+[0.205s] [0m
+[0.205s] -- Configuring incomplete, errors occurred!
+[0.205s] See also "/home/saeesh/ros2_ws/build/my_robot_interface/CMakeFiles/CMakeOutput.log".
+[0.208s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.211s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ROS2swarm/install/ros2swarm:/home/saeesh/ROS2swarm/install/launch_gazebo:/home/saeesh/turtlebot3_ws/install/turtlebot3_teleop:/home/saeesh/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interface -- -j4 -l4

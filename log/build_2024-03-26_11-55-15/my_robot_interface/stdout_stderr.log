@@ -1,0 +1,9 @@
+failed to create symbolic link '/home/saeesh/ros2_ws/build/my_robot_interface/ament_cmake_python/my_robot_interface/my_robot_interface' because existing path cannot be removed: Is a directory
+[  7%] Built target my_robot_interface__cpp
+[ 12%] Built target my_robot_interface__rosidl_generator_c
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_robot_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_robot_interface] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_my_robot_interface.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target my_robot_interface__rosidl_typesupport_fastrtps_cpp[0m
+[ 23%] Built target my_robot_interface__rosidl_typesupport_fastrtps_cpp
+gmake: *** [Makefile:146: all] Error 2

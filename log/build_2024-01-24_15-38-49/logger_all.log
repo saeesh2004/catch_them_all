@@ -1,0 +1,217 @@
+[1.626s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.626s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f72643a3850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f72643926b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f72643926b0>>)
+[1.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.888s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saeesh/ros2_ws'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[1.972s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[1.975s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[1.995s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['ignore', 'ignore_ament_install']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ignore_ament_install'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['colcon_pkg']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'colcon_pkg'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['colcon_meta']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'colcon_meta'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['ros']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ros'
+[1.998s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_catch_them_all' with type 'ros.ament_python' and name 'turtlesim_catch_them_all'
+[1.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/saeesh/ros2_ws/install
+[2.368s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[2.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.555s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.556s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saeesh/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saeesh/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/saeesh/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.574s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_args' from command line to 'None'
+[2.574s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_target' from command line to 'None'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_clean_cache' from command line to 'False'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_clean_first' from command line to 'False'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_force_configure' from command line to 'False'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'ament_cmake_args' from command line to 'None'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'catkin_cmake_args' from command line to 'None'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.575s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_catch_them_all' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all', 'merge_install': False, 'path': '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all', 'symlink_install': False, 'test_result_base': None}
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.595s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.595s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saeesh/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saeesh/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/saeesh/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.616s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saeesh/ros2_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saeesh/ros2_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/saeesh/ros2_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.636s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.658s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saeesh/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[2.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saeesh/ros2_ws/src/my_robot_interfaces'
+[2.709s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.788s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all' with build type 'ament_python'
+[2.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_them_all', 'ament_prefix_path')
+[2.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.ps1'
+[2.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.dsv'
+[2.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.sh'
+[2.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saeesh/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/saeesh/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/saeesh/ros2_ws/install/my_robot_interfaces
+[3.372s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all'
+[3.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all': PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed
+[4.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed
+[4.815s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all' for CMake module files
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all' for CMake config files
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/bin'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/pkgconfig/turtlesim_catch_them_all.pc'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages'
+[4.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_them_all', 'pythonpath')
+[4.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.ps1'
+[4.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.dsv'
+[4.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.sh'
+[4.839s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/bin'
+[4.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_catch_them_all)
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.ps1'
+[4.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv'
+[4.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.sh'
+[4.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.bash'
+[4.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.zsh'
+[4.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/colcon-core/packages/turtlesim_catch_them_all)
+[6.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saeesh/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/saeesh/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/saeesh/ros2_ws/install/my_robot_interfaces
+[6.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saeesh/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[6.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saeesh/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[7.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[7.325s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/my_robot_interfaces' for CMake module files
+[7.331s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/my_robot_interfaces' for CMake config files
+[7.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[7.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[7.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[7.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[7.430s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/my_robot_interfaces/lib'
+[7.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[7.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[7.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[7.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[7.508s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/my_robot_interfaces/bin'
+[7.508s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[7.509s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/saeesh/ros2_ws/install/my_robot_interfaces/bin'
+[7.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[7.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[7.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[7.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[7.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/saeesh/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[7.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saeesh/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[7.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[7.583s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.681s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.682s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.747s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.791s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saeesh/ros2_ws/install/local_setup.ps1'
+[7.794s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saeesh/ros2_ws/install/_local_setup_util_ps1.py'
+[7.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saeesh/ros2_ws/install/setup.ps1'
+[7.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saeesh/ros2_ws/install/local_setup.sh'
+[7.876s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saeesh/ros2_ws/install/_local_setup_util_sh.py'
+[7.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saeesh/ros2_ws/install/setup.sh'
+[7.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saeesh/ros2_ws/install/local_setup.bash'
+[7.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saeesh/ros2_ws/install/setup.bash'
+[7.923s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saeesh/ros2_ws/install/local_setup.zsh'
+[7.924s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saeesh/ros2_ws/install/setup.zsh'

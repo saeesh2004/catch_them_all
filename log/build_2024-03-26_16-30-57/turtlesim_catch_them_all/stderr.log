@@ -1,0 +1,5 @@
+  File "/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_spawner.py", line 12
+    from my_robot_interfaces.
+                             ^
+SyntaxError: invalid syntax
+

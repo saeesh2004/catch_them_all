@@ -1,0 +1,34 @@
+[1.262s] Invoking command in '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/saeesh/ros2_ws/install/my_robot_interface/lib:/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build
+[1.634s] running develop
+[1.864s] Removing /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[1.920s] Invoked command in '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/saeesh/ros2_ws/install/my_robot_interface/lib:/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build
+[1.922s] Invoking command in '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/saeesh/ros2_ws/install/my_robot_interface/lib:/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed
+[2.285s] running egg_info
+[2.286s] writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO
+[2.286s] writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt
+[2.287s] writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt
+[2.287s] writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt
+[2.287s] writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt
+[2.290s] reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.292s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[2.292s] running build
+[2.293s] running build_py
+[2.293s] copying turtlesim_catch_them_all/turtle_spawner.py -> /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[2.293s] copying turtlesim_catch_them_all/turtle_controller.py -> /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[2.294s] running install
+[2.294s] running install_lib
+[2.295s] creating /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[2.295s] copying /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_spawner.py -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[2.295s] copying /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_controller.py -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[2.295s] copying /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/__init__.py -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[2.296s] byte-compiling /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[2.297s] byte-compiling /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_controller.py to turtle_controller.cpython-310.pyc
+[2.299s] byte-compiling /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/__init__.py to __init__.cpython-310.pyc
+[2.299s] running install_data
+[2.299s] running install_egg_info
+[2.302s] Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info
+[2.303s] running install_scripts
+[2.329s] Installing turtle_controller script to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.330s] Installing turtle_spawner script to /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[2.330s] writing list of installed files to '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log'
+[2.377s] Invoked command in '/home/saeesh/ros2_ws/src/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/saeesh/ros2_ws/install/my_robot_interface/lib:/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed

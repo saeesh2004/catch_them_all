@@ -1,0 +1,31 @@
+[1.198s] Invoking command in '/home/saeesh/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/saeesh/ros2_ws/build/my_py_pkg/prefix_override:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/saeesh/ros2_ws/build/my_py_pkg/build install --record /home/saeesh/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.501s] running egg_info
+[1.501s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.502s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.502s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.502s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.502s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.505s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.506s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.506s] running build
+[1.506s] running build_py
+[1.507s] copying my_py_pkg/add_two_numbers_cli_oop.py -> /home/saeesh/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.507s] running install
+[1.508s] running install_lib
+[1.509s] copying /home/saeesh/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_numbers_cli_oop.py -> /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.510s] byte-compiling /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_numbers_cli_oop.py to add_two_numbers_cli_oop.cpython-310.pyc
+[1.511s] running install_data
+[1.512s] running install_egg_info
+[1.513s] removing '/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.514s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.515s] running install_scripts
+[1.541s] Installing activity_pub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.541s] Installing activity_sub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.542s] Installing add_two_numbers_cli script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.542s] Installing add_two_numbers_cli_oop script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.542s] Installing add_two_numbers_srv script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.542s] Installing py_node script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.542s] Installing robo_news script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.542s] Installing smartphone script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.543s] writing list of installed files to '/home/saeesh/ros2_ws/build/my_py_pkg/install.log'
+[1.584s] Invoked command in '/home/saeesh/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/saeesh/ros2_ws/build/my_py_pkg/prefix_override:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/saeesh/ros2_ws/build/my_py_pkg/build install --record /home/saeesh/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

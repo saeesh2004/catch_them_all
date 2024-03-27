@@ -1,0 +1,11 @@
+[0.873s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interface -- -j4 -l4
+[1.144s] [  2%] Built target my_robot_interface__cpp
+[1.201s] failed to create symbolic link '/home/saeesh/ros2_ws/build/my_robot_interface/ament_cmake_python/my_robot_interface/my_robot_interface' because existing path cannot be removed: Is a directory
+[1.205s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_robot_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_robot_interface] Error 1
+[1.206s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_my_robot_interface.dir/all] Error 2
+[1.206s] gmake[1]: *** Waiting for unfinished jobs....
+[1.248s] [ 12%] Built target my_robot_interface__rosidl_typesupport_fastrtps_cpp
+[1.261s] [ 23%] Built target my_robot_interface__rosidl_generator_c
+[1.281s] [ 34%] Built target my_robot_interface__rosidl_typesupport_introspection_cpp
+[1.286s] gmake: *** [Makefile:146: all] Error 2
+[1.631s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interface -- -j4 -l4

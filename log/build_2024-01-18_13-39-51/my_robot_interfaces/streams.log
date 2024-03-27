@@ -1,0 +1,24 @@
+[0.102s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.162s] [33mCMake Warning (dev) at CMakeLists.txt:31:
+[0.162s]   Syntax Warning in cmake code at column 25
+[0.162s] 
+[0.162s]   Argument not separated from preceding token by whitespace.
+[0.162s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.162s] [0m
+[0.167s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.460s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.553s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[0.554s]   the CMAKE_CURRENT_SOURCE_DIR '/home/saeesh/ros2_ws/src/my_robot_interfaces'
+[0.554s] Call Stack (most recent call first):
+[0.554s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[0.554s] 
+[0.555s] [0m
+[0.555s] -- Configuring incomplete, errors occurred!
+[0.555s] See also "/home/saeesh/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.559s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.563s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interfaces -- -j4 -l4

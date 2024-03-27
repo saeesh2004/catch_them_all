@@ -1,0 +1,5 @@
+[0.092s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.122s] [0mCMake Error: The source directory "/home/saeesh/ros2_ws/src/my_robot_interfaces" does not exist.
+[0.122s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.124s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.128s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interfaces -- -j4 -l4

@@ -1,0 +1,9 @@
+[  2%] [32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/turtle__functions.c.o[0m
+[  5%] Built target my_robot_interface__cpp
+[  7%] [32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/turtle_array__functions.c.o[0m
+[  7%] Built target ament_cmake_python_copy_my_robot_interface
+[ 10%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/msg/turtle__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle_array__type_support.cpp.o[0m

@@ -1,0 +1,20 @@
+[0.643s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interface -- -j4 -l4
+[1.093s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_interface -- -j4 -l4
+[1.167s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saeesh/ros2_ws/build/my_robot_interface
+[1.181s] -- Install configuration: ""
+[1.181s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/ament_index/resource_index/package_run_dependencies/my_robot_interface
+[1.182s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/ament_index/resource_index/parent_prefix_path/my_robot_interface
+[1.182s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/ament_prefix_path.sh
+[1.182s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/ament_prefix_path.dsv
+[1.183s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/path.sh
+[1.183s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/environment/path.dsv
+[1.183s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/local_setup.bash
+[1.183s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/local_setup.sh
+[1.183s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/local_setup.zsh
+[1.184s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/local_setup.dsv
+[1.184s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/package.dsv
+[1.184s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/ament_index/resource_index/packages/my_robot_interface
+[1.184s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interfaceConfig.cmake
+[1.184s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/cmake/my_robot_interfaceConfig-version.cmake
+[1.184s] -- Up-to-date: /home/saeesh/ros2_ws/install/my_robot_interface/share/my_robot_interface/package.xml
+[1.187s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saeesh/ros2_ws/build/my_robot_interface

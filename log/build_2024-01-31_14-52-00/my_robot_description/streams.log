@@ -1,0 +1,41 @@
+[1.044s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/saeesh/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/saeesh/ros2_ws/install/my_robot_description
+[2.063s] -- The C compiler identification is GNU 11.4.0
+[2.912s] -- The CXX compiler identification is GNU 11.4.0
+[2.959s] -- Detecting C compiler ABI info
+[3.215s] -- Detecting C compiler ABI info - done
+[3.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.230s] -- Detecting C compile features
+[3.259s] -- Detecting C compile features - done
+[3.268s] -- Detecting CXX compiler ABI info
+[3.498s] -- Detecting CXX compiler ABI info - done
+[3.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.513s] -- Detecting CXX compile features
+[3.514s] -- Detecting CXX compile features - done
+[3.566s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.066s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.530s] -- Configuring done
+[4.538s] -- Generating done
+[4.540s] -- Build files have been written to: /home/saeesh/ros2_ws/build/my_robot_description
+[4.553s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/saeesh/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/saeesh/ros2_ws/install/my_robot_description
+[4.556s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_description -- -j4 -l4
+[4.655s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_description -- -j4 -l4
+[4.707s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saeesh/ros2_ws/build/my_robot_description
+[4.732s] -- Install configuration: ""
+[4.732s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description//urdf
+[4.732s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf
+[4.733s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[4.734s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[4.734s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[4.735s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[4.735s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[4.735s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[4.736s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[4.736s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[4.737s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[4.737s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[4.737s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[4.738s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[4.738s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[4.740s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[4.740s] -- Installing: /home/saeesh/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[4.746s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/saeesh/ros2_ws/build/my_robot_description

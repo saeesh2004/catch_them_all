@@ -1,0 +1,18 @@
+[3.481s] Invoking command in '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all': PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[3.891s] running develop
+[4.284s] running egg_info
+[4.285s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[4.285s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[4.286s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[4.286s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[4.286s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[4.289s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[4.290s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[4.293s] running build_ext
+[4.293s] Creating /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[4.294s] 
+[4.294s] Installed /home/saeesh/ros2_ws/build/turtlesim_catch_them_all
+[4.295s] running install_data
+[4.295s] copying resource/turtlesim_catch_them_all -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[4.295s] copying package.xml -> /home/saeesh/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[4.359s] Invoked command in '/home/saeesh/ros2_ws/build/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/saeesh/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/saeesh/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data

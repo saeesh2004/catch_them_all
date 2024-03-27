@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000375] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000466] (my_robot_interface) JobQueued: {'identifier': 'my_robot_interface', 'dependencies': OrderedDict()}
+[0.000654] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('my_robot_interface', '/home/saeesh/ros2_ws/install/my_robot_interface')])}
+[0.000730] (my_robot_interface) JobStarted: {'identifier': 'my_robot_interface'}
+[0.087290] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099082] (-) TimerEvent: {}
+[0.196145] (my_robot_interface) JobProgress: {'identifier': 'my_robot_interface', 'progress': 'cmake'}
+[0.196868] (my_robot_interface) JobProgress: {'identifier': 'my_robot_interface', 'progress': 'build'}
+[0.198045] (my_robot_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saeesh/ros2_ws/build/my_robot_interface', '--', '-j4', '-l4'], 'cwd': '/home/saeesh/ros2_ws/build/my_robot_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saeesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/saeesh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1400'), ('SYSTEMD_EXEC_PID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '30635'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/saeesh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'saeesh'), ('JOURNAL_STREAM', '8:32909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saeesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/saeesh-Inspiron-15-3525:@/tmp/.ICE-unix/1556,unix/saeesh-Inspiron-15-3525:/tmp/.ICE-unix/1556'), ('INVOCATION_ID', '55afa097b33c47c59807e4ad3d979a7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T3A9H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3eb4eb5f-e9a4-472c-84df-5cb3ac01fac0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saeesh/ros2_ws/build/my_robot_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saeesh/ros2_ws/build/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.203611] (-) TimerEvent: {}
+[0.253764] (my_robot_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.303727] (-) TimerEvent: {}
+[0.404100] (-) TimerEvent: {}
+[0.490166] (my_robot_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.493565] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.498820] (my_robot_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.504170] (-) TimerEvent: {}
+[0.558721] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.604378] (-) TimerEvent: {}
+[0.705267] (-) TimerEvent: {}
+[0.805794] (-) TimerEvent: {}
+[0.906156] (-) TimerEvent: {}
+[0.953015] (my_robot_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.006329] (-) TimerEvent: {}
+[1.106728] (-) TimerEvent: {}
+[1.207281] (-) TimerEvent: {}
+[1.239912] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.307441] (-) TimerEvent: {}
+[1.318497] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/saeesh/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/saeesh/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/saeesh/ros2_ws/src/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'saeesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saeesh/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/saeesh', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1400', 'SYSTEMD_EXEC_PID': '1579', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '30635', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saeesh/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'saeesh', 'JOURNAL_STREAM': '8:32909', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saeesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/saeesh-Inspiron-15-3525:@/tmp/.ICE-unix/1556,unix/saeesh-Inspiron-15-3525:/tmp/.ICE-unix/1556', 'INVOCATION_ID': '55afa097b33c47c59807e4ad3d979a7d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3A9H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saeesh/ros2_ws/install/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/my_py_pkg:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3eb4eb5f-e9a4-472c-84df-5cb3ac01fac0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saeesh/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saeesh/ros2_ws/build/my_py_pkg/prefix_override:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlsim_catch_them_all:/home/saeesh/ros2_ws/install/turtlsim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/build/turtlesim_catch_them_all:/home/saeesh/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/saeesh/ros2_ws/install/my_robot_bringup:/home/saeesh/ros2_ws/install/my_robot_interfaces:/home/saeesh/ros2_ws/install/my_robot_interface'}, 'shell': False}
+[1.407543] (-) TimerEvent: {}
+[1.507903] (-) TimerEvent: {}
+[1.608302] (-) TimerEvent: {}
+[1.628251] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.673119] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.674249] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.674546] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.674817] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.675005] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.675238] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.677844] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.679171] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.679440] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.679570] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.680748] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.681162] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.683650] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.684378] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.686618] (my_py_pkg) StdoutLine: {'line': b"removing '/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.687444] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.688863] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.694310] (my_robot_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.697622] (my_robot_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.708435] (-) TimerEvent: {}
+[1.715393] (my_py_pkg) StdoutLine: {'line': b'Installing activity3_subscriber script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.715750] (my_py_pkg) StdoutLine: {'line': b'Installing activity_pub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.716021] (my_py_pkg) StdoutLine: {'line': b'Installing activity_sub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.716239] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_numbers_cli script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.716449] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_numbers_cli_oop script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.716706] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_numbers_srv script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.716918] (my_py_pkg) StdoutLine: {'line': b'Installing bettery script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.717147] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.717348] (my_py_pkg) StdoutLine: {'line': b'Installing led_panel script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.717495] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.717636] (my_py_pkg) StdoutLine: {'line': b'Installing robo_news script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.717762] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.718167] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/saeesh/ros2_ws/build/my_py_pkg/install.log'\n"}
+[1.770566] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.792690] (my_robot_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.793000] (my_robot_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.793098] (my_robot_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.793188] (my_robot_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.808686] (-) TimerEvent: {}
+[1.824753] (my_robot_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.862352] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.908803] (-) TimerEvent: {}
+[1.932754] (my_robot_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.973548] (my_robot_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.977554] (my_robot_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/saeesh/ros2_ws/build/my_robot_interface\n'}
+[2.008975] (-) TimerEvent: {}
+[2.015525] (my_robot_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.057931] (my_robot_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.072443] (my_robot_interface) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_my_robot_interface\n'}
+[2.109099] (-) TimerEvent: {}
+[2.209673] (-) TimerEvent: {}
+[2.310043] (-) TimerEvent: {}
+[2.410398] (-) TimerEvent: {}
+[2.510723] (-) TimerEvent: {}
+[2.587338] (my_robot_interface) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/turtle_array__functions.c.o\x1b[0m\n'}
+[2.589267] (my_robot_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/turtle__functions.c.o\x1b[0m\n'}
+[2.597215] (my_robot_interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.598322] (my_robot_interface) StdoutLine: {'line': b'creating my_robot_interface.egg-info\n'}
+[2.598726] (my_robot_interface) StdoutLine: {'line': b'writing my_robot_interface.egg-info/PKG-INFO\n'}
+[2.599045] (my_robot_interface) StdoutLine: {'line': b'writing dependency_links to my_robot_interface.egg-info/dependency_links.txt\n'}
+[2.599350] (my_robot_interface) StdoutLine: {'line': b'writing top-level names to my_robot_interface.egg-info/top_level.txt\n'}
+[2.599859] (my_robot_interface) StdoutLine: {'line': b"writing manifest file 'my_robot_interface.egg-info/SOURCES.txt'\n"}
+[2.603746] (my_robot_interface) StdoutLine: {'line': b"reading manifest file 'my_robot_interface.egg-info/SOURCES.txt'\n"}
+[2.604731] (my_robot_interface) StdoutLine: {'line': b"writing manifest file 'my_robot_interface.egg-info/SOURCES.txt'\n"}
+[2.610864] (-) TimerEvent: {}
+[2.616542] (my_robot_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_c/my_robot_interface/msg/detail/turtle_array__struct.h:22\x1b[m\x1b[K,\n'}
+[2.616825] (my_robot_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_c/my_robot_interface/msg/detail/turtle_array__functions.h:19\x1b[m\x1b[K,\n'}
+[2.616964] (my_robot_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_c/my_robot_interface/msg/detail/turtle_array__functions.c:4\x1b[m\x1b[K:\n'}
+[2.617156] (my_robot_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_c/my_robot_interface/msg/detail/turtle__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interface/msg/detail/string__struct.h: No such file or directory\n'}
+[2.617815] (my_robot_interface) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"my_robot_interface/msg/detail/string__struct.h"\x1b[m\x1b[K\n'}
+[2.618730] (my_robot_interface) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.619040] (my_robot_interface) StderrLine: {'line': b'compilation terminated.\n'}
+[2.619200] (my_robot_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_c/my_robot_interface/msg/detail/turtle__functions.h:19\x1b[m\x1b[K,\n'}
+[2.619386] (my_robot_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_c/my_robot_interface/msg/detail/turtle__functions.c:4\x1b[m\x1b[K:\n'}
+[2.619536] (my_robot_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_c/my_robot_interface/msg/detail/turtle__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interface/msg/detail/string__struct.h: No such file or directory\n'}
+[2.619690] (my_robot_interface) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"my_robot_interface/msg/detail/string__struct.h"\x1b[m\x1b[K\n'}
+[2.619833] (my_robot_interface) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.619984] (my_robot_interface) StderrLine: {'line': b'compilation terminated.\n'}
+[2.657142] (my_robot_interface) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_build_my_robot_interface_egg\n'}
+[2.694945] (my_robot_interface) StdoutLine: {'line': b'[ 10%] Built target my_robot_interface__cpp\n'}
+[2.706300] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_interface__rosidl_generator_c.dir/build.make:135: CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/turtle_array__functions.c.o] Error 1\n'}
+[2.706624] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.706775] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_interface__rosidl_generator_c.dir/build.make:121: CMakeFiles/my_robot_interface__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interface/msg/detail/turtle__functions.c.o] Error 1\n'}
+[2.707046] (my_robot_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/my_robot_interface__rosidl_generator_c.dir/all] Error 2\n'}
+[2.707205] (my_robot_interface) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.710822] (my_robot_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.711119] (-) TimerEvent: {}
+[2.712099] (my_robot_interface) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.722262] (my_robot_interface) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.811276] (-) TimerEvent: {}
+[2.911880] (-) TimerEvent: {}
+[3.012242] (-) TimerEvent: {}
+[3.112595] (-) TimerEvent: {}
+[3.143207] (my_robot_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[3.144668] (my_robot_interface) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.212725] (-) TimerEvent: {}
+[3.235686] (my_robot_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.312834] (-) TimerEvent: {}
+[3.324384] (my_robot_interface) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[3.412965] (-) TimerEvent: {}
+[3.513468] (-) TimerEvent: {}
+[3.613961] (-) TimerEvent: {}
+[3.714514] (-) TimerEvent: {}
+[3.814992] (-) TimerEvent: {}
+[3.915523] (-) TimerEvent: {}
+[4.016171] (-) TimerEvent: {}
+[4.082466] (my_robot_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[4.082869] (my_robot_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/dds_fastrtps/turtle__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[4.083165] (my_robot_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_cpp/my_robot_interface/msg/detail/turtle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interface/msg/detail/string__struct.hpp: No such file or directory\n'}
+[4.083366] (my_robot_interface) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"my_robot_interface/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[4.083507] (my_robot_interface) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.083641] (my_robot_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_typesupport_cpp/my_robot_interface/msg/turtle__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[4.083847] (my_robot_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_cpp/my_robot_interface/msg/detail/turtle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interface/msg/detail/string__struct.hpp: No such file or directory\n'}
+[4.083990] (my_robot_interface) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"my_robot_interface/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[4.084124] (my_robot_interface) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.084256] (my_robot_interface) StderrLine: {'line': b'compilation terminated.\n'}
+[4.084474] (my_robot_interface) StderrLine: {'line': b'compilation terminated.\n'}
+[4.089435] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:98: CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interface/msg/detail/dds_fastrtps/turtle__type_support.cpp.o] Error 1\n'}
+[4.090205] (my_robot_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/my_robot_interface__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[4.091943] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/build.make:90: CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/msg/turtle__type_support.cpp.o] Error 1\n'}
+[4.092400] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.102466] (my_robot_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[4.116318] (-) TimerEvent: {}
+[4.180078] (my_robot_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_cpp/my_robot_interface/msg/detail/turtle_array__struct.hpp:20\x1b[m\x1b[K,\n'}
+[4.180442] (my_robot_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_typesupport_cpp/my_robot_interface/msg/turtle_array__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[4.180674] (my_robot_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_cpp/my_robot_interface/msg/detail/turtle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interface/msg/detail/string__struct.hpp: No such file or directory\n'}
+[4.180878] (my_robot_interface) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"my_robot_interface/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[4.181072] (my_robot_interface) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.181263] (my_robot_interface) StderrLine: {'line': b'compilation terminated.\n'}
+[4.182984] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/build.make:104: CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interface/msg/turtle_array__type_support.cpp.o] Error 1\n'}
+[4.183284] (my_robot_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/my_robot_interface__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[4.216434] (-) TimerEvent: {}
+[4.225839] (my_robot_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[4.226384] (my_robot_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_cpp/my_robot_interface/msg/detail/turtle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interface/msg/detail/string__struct.hpp: No such file or directory\n'}
+[4.226720] (my_robot_interface) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"my_robot_interface/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[4.227005] (my_robot_interface) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.227290] (my_robot_interface) StderrLine: {'line': b'compilation terminated.\n'}
+[4.227756] (my_robot_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_cpp/my_robot_interface/msg/detail/turtle_array__struct.hpp:20\x1b[m\x1b[K,\n'}
+[4.228048] (my_robot_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle_array__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[4.228311] (my_robot_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saeesh/ros2_ws/build/my_robot_interface/rosidl_generator_cpp/my_robot_interface/msg/detail/turtle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interface/msg/detail/string__struct.hpp: No such file or directory\n'}
+[4.228597] (my_robot_interface) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"my_robot_interface/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[4.228853] (my_robot_interface) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.229106] (my_robot_interface) StderrLine: {'line': b'compilation terminated.\n'}
+[4.229896] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/build.make:98: CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle__type_support.cpp.o] Error 1\n'}
+[4.230049] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.235077] (my_robot_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/build.make:112: CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interface/msg/detail/turtle_array__type_support.cpp.o] Error 1\n'}
+[4.235478] (my_robot_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/my_robot_interface__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[4.235977] (my_robot_interface) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.242917] (my_robot_interface) CommandEnded: {'returncode': 2}
+[4.316547] (-) TimerEvent: {}
+[4.416972] (-) TimerEvent: {}
+[4.517451] (-) TimerEvent: {}
+[4.618171] (-) TimerEvent: {}
+[4.668075] (my_robot_interface) JobEnded: {'identifier': 'my_robot_interface', 'rc': 2}
+[4.679259] (turtlesim_catch_them_all) JobSkipped: {'identifier': 'turtlesim_catch_them_all'}
+[4.679465] (-) EventReactorShutdown: {}

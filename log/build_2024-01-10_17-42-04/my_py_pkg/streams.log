@@ -1,0 +1,34 @@
+[1.885s] Invoking command in '/home/saeesh/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/saeesh/ros2_ws/build/my_py_pkg/prefix_override:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/saeesh/ros2_ws/build/my_py_pkg/build install --record /home/saeesh/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.654s] running egg_info
+[2.658s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.661s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.662s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.662s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.663s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.673s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.728s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.729s] running build
+[2.729s] running build_py
+[2.731s] copying my_py_pkg/activity_pub.py -> /home/saeesh/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.732s] copying my_py_pkg/activity_sub.py -> /home/saeesh/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.732s] copying my_py_pkg/smartphone.py -> /home/saeesh/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.734s] running install
+[2.735s] running install_lib
+[2.738s] copying /home/saeesh/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/activity_pub.py -> /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.738s] copying /home/saeesh/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/activity_sub.py -> /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.739s] copying /home/saeesh/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.742s] byte-compiling /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/activity_pub.py to activity_pub.cpython-310.pyc
+[2.743s] byte-compiling /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/activity_sub.py to activity_sub.cpython-310.pyc
+[2.746s] byte-compiling /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[2.746s] running install_data
+[2.748s] running install_egg_info
+[2.753s] removing '/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.755s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.790s] running install_scripts
+[2.847s] Installing activity_pub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.859s] Installing activity_sub script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.859s] Installing py_node script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.859s] Installing robo_news script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.860s] Installing smartphone script to /home/saeesh/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.861s] writing list of installed files to '/home/saeesh/ros2_ws/build/my_py_pkg/install.log'
+[2.935s] Invoked command in '/home/saeesh/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/saeesh/ros2_ws/build/my_py_pkg/prefix_override:/home/saeesh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/saeesh/ros2_ws/build/my_py_pkg/build install --record /home/saeesh/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

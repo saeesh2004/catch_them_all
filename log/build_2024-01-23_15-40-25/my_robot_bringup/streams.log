@@ -1,0 +1,9 @@
+[0.235s] Invoking command in '/home/saeesh/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[0.284s] [31mCMake Error at CMakeLists.txt:14 (if):
+[0.284s]   Flow control statements are not properly nested.
+[0.284s] 
+[0.285s] [0m
+[0.285s] -- Configuring incomplete, errors occurred!
+[0.285s] See also "/home/saeesh/ros2_ws/build/my_robot_bringup/CMakeFiles/CMakeOutput.log".
+[0.288s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.295s] Invoked command in '/home/saeesh/ros2_ws/build/my_robot_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saeesh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/saeesh/ros2_ws/build/my_robot_bringup -- -j4 -l4
